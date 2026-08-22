@@ -12,6 +12,5 @@ def load_pdf_files(data):
         glob="*.pdf",
         loader_cls=PyPDFLoader
     )
-
     documents = loader.load()
     return documents
