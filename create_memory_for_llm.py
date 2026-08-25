@@ -6,6 +6,7 @@ from langchain_community.document_loaders import PyPDFLoader,DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 DATA_PATH = "data/"
+
 def load_pdf_files(data):
     loader = DirectoryLoader(
         data,
