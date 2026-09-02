@@ -4,7 +4,6 @@ Or activate the environment:
 python -m pipenv shell
 
 pipenv run python .\create_memory_for_llm.py
-
 video link:
 https://youtu.be/OP0FYjF-37c?list=PL_pAv_JZgZkEI23QUvTlal6hf91xh2Zit&t=1971
 
