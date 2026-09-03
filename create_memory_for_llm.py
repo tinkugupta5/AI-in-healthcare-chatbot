@@ -9,7 +9,6 @@ from langchain_community.vectorstores import FAISS
 
 
 DATA_PATH = "data/"
-
 def load_pdf_files(data):
     loader = DirectoryLoader(
         data,
