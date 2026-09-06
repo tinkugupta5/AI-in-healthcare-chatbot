@@ -7,7 +7,6 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
-
 DATA_PATH = "data/"
 
 def load_pdf_files(data):
@@ -37,6 +36,7 @@ def get_embedding_model():
 
 
 if __name__ == "__main__":
+     # step 1
     documents = load_pdf_files(DATA_PATH)
     text_chunks = create_chunks(documents)
     print("Length of Text Chunks: ", len(text_chunks))
@@ -46,6 +46,7 @@ if __name__ == "__main__":
     print("Embedding model loaded")
 
     # step 4 store embeddings
+    
     DB_FAISS_PATH = "vectorstore/db_faiss"
     os.makedirs(os.path.dirname(DB_FAISS_PATH), exist_ok=True)
 
