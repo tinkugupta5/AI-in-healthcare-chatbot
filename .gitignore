@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook and environment metadata
+.ipynb_checkpoints/
+.DS_Store
+
+# Local project data / database artifacts
+vectorstore/
+*.db
+*.sqlite3
+*.faiss
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+!.env.example
