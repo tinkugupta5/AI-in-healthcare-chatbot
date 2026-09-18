@@ -21,6 +21,7 @@ def load_llm(huggingface_repo_id):
     return llm
 
 # Step 2: Connect LLM with FAISS
+
 # Step 2: Connect LLM with FAISS and Create chain
 
 CUSTOM_PROMPT_TEMPLATE = """
