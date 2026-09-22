@@ -9,6 +9,7 @@ langchain-community = "*"
 langchain-huggingface = "*"
 faiss-cpu = "*"
 sentence-transformers = "*"
+streamlit = "*"
 
 [dev-packages]
 
