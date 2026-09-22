@@ -10,6 +10,9 @@ langchain-huggingface = "*"
 faiss-cpu = "*"
 sentence-transformers = "*"
 streamlit = "*"
+langchain-groq = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 
