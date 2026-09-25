@@ -75,8 +75,6 @@ def build_qa_chain():
 
 
 qa_chain = None
-
-
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
