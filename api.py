@@ -13,6 +13,7 @@ load_dotenv(".env")
 
 DB_FAISS_PATH = "vectorstore/db_faiss"
 CUSTOM_PROMPT_TEMPLATE = """
+
 Use the pieces of information provided in the context to answer the user's question.
 If you do not know the answer, say that you do not know. Do not make up an answer.
 Answer only from the provided context.
