@@ -24,6 +24,16 @@ Question: {question}
 Start the answer directly. No small talk.
 """
 
+# python
+# typescript
+# SQL
+#agentic flow
+# real business problem 
+#cloud devops
+#
+
+
+
 app = FastAPI(title="Medical Chatbot API")
 app.add_middleware(
     CORSMiddleware,
