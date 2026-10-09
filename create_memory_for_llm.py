@@ -46,6 +46,7 @@ if __name__ == "__main__":
     print("Embedding model loaded")
 
     # step 4 store embeddings
+    
     DB_FAISS_PATH = "vectorstore/db_faiss"
     os.makedirs(os.path.dirname(DB_FAISS_PATH), exist_ok=True)
 
